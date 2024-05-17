@@ -9,7 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 import streamlit as st
 
 # Load the data
-data = pd.read_csv(r"C:\Users\91995\Desktop\Python\titanic3.csv")
+data = pd.read_csv("titanic3.csv")
 print(data['survived'].value_counts())
 
 # Separating the data
