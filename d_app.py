@@ -1,13 +1,8 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 import sqlite3
-
-
 import sqlite3
 import pandas as pd
-
-
 
 data = pd.read_csv("titanic3.csv")
 conn.close()
