@@ -57,6 +57,13 @@ print(f'Training Accuracy: {accuracy:.2f}')
 # Streamlit app to display predictions
 def main():
     st.title('Titanic Survival Prediction')
+
+    st.write("GROUP-15: Jahnavi Pravaleeka Battu, Devi Deepshikha Jami, Rithwik Gilla, Sri naga chanran Gampala")
+    
+    st.header('Introduction')
+    st.write('This application predicts the survival likelihood of passengers aboard the Titanic based on user-provided data. Please enter the details below.')
+    
+    
     # Collecting input
     pclass = st.selectbox('Passenger Class', options=[1, 2, 3])
     sex = st.selectbox('Sex', options=['male', 'female'])
@@ -105,7 +112,6 @@ def main():
         
         # Display results
         st.write(f'Predicted Survival: {"Yes" if prediction == 1 else "No"}')
-        st.write(f'Survival Probability: {probability:.2%}')
 
 if __name__ == '__main__':
     main()
