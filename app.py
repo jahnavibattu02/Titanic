@@ -58,7 +58,7 @@ print(f'Training Accuracy: {accuracy:.2f}')
 def main():
     st.title('Titanic Survival Prediction')
 
-    st.write("GROUP-15: Jahnavi Pravaleeka Battu, Devi Deepshikha Jami, Rithwik Gilla, Sri naga chanran Gampala")
+    st.write("GROUP-15: Jahnavi Pravaleeka Battu, Devi Deepshikha Jami, Rithwik Gilla, Sri naga charan Gampala")
     
     st.header('Introduction')
     st.write('This application predicts the survival likelihood of passengers aboard the Titanic based on user-provided data. Please enter the details below.')
